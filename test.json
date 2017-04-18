@@ -1,0 +1,38 @@
+[
+  {
+    "id": "The Big Bang Theory",
+    "file": "Videoschnitt Serien.ods",
+    "sheet": "TBBT",
+    "title": "The Big Bang Theory",
+    "subtitle_column": 3,
+    "known_subtitle_condition": "'$4' == '-' and '$5' == '-'",
+    "valid_row_condition": "'$0' == 'The Big Bang Theory'",
+    "recordings_dir": "The-Big-Bang-Theory",
+    "action": "move",
+    "move_to": "delete"
+  },
+  {
+    "id": "Mysterien des Weltalls - ZDF",
+    "file": "Videoschnitt Serien.ods",
+    "sheet": "Serien",
+    "title": "Mysterien des Weltalls",
+    "subtitle_column": 3,
+    "known_subtitle_condition": "'$4' == '-' and '$5' == '-'",
+    "valid_row_condition": "'$0' == 'Mysterien des Weltalls'",
+    "recordings_dir": "Mysterien-des-Weltalls",
+    "action": "move",
+    "move_to": "delete"
+  },
+  {
+    "id": "Mysterien des Weltalls - ServusTV",
+    "file": "Videoschnitt Serien.ods",
+    "sheet": "Serien",
+    "title": "Mysterien des Weltalls",
+    "subtitle_column": 3,
+    "known_subtitle_condition": "'$4' == '-' and '$5' == '-'",
+    "valid_row_condition": "'$0' == 'Mysterien des Weltalls'",
+    "recordings_dir": "Morgan-Freeman_-Mysterien-des-Weltalls",
+    "action": "move",
+    "move_to": "delete"
+  }
+]
