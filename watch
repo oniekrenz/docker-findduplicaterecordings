@@ -1,0 +1,5 @@
+#!/bin/bash
+
+localdir=${1:?Usage: $0 localdir}
+docker run -d -v $localdir:/mnt/pvr oniekrenz/docker-findduplicaterecordings /mnt/pvr/FindDuplicateRecordings.json
+

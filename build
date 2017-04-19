@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t oniekrenz/docker-removeduplicaterecodings:latest .
+docker build -t oniekrenz/docker-findduplicaterecordings:latest .
 
